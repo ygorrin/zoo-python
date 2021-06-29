@@ -9,10 +9,12 @@ class Oso(Animal):
         self.peso = peso
     def buscaMiel(self):
         self.felicidad +=25
+        print("Estoy buscando miel")
         return self
     def alimentacion(self):
         self.salud += 20
         self.felicidad += 35
+        print("Oso comiendo")
         return self
     def display_info(self):
         print(f"Soy el oso {self.nombre}, me gusta la miel, salud {self.salud}, felicidad {self.felicidad} y peso {self.peso}") 

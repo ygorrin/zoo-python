@@ -19,10 +19,18 @@ class Zoo:
             animal.display_info()
 
 oso1 = Oso("Oso", "Pooh", 25, 10, 30, 250 )
+oso1.alimentacion()
+oso1.buscaMiel()
 oso1.display_info()
+
 tigre1 = Tigre("Tigre", "Tigrimmm", 33, 20, 30, 50 )
+tigre1.alimentacion()
+tigre1.correr()
 tigre1.display_info()
+
 leon1 = Leon("León", "Leonina", 33, 20, 30, "femenino" )
+leon1.alimentacion()
+leon1.rugir()
 leon1.display_info()
 
 zoo1 = Zoo("Yamy Zoo")
